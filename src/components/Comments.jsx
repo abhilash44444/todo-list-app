@@ -3,7 +3,7 @@ import './App.css';
 
 import Todos from './components/Todos';
 
-function App() {
+function Comments() {
   const [data, setData] = useState('');
 
   const [todo, setTodo] = useState([])
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Comments;
